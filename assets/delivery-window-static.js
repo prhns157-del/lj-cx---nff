@@ -1,10 +1,11 @@
 (function () {
   "use strict";
 
-  var elements = document.querySelectorAll("div");
+  var elements = document.querySelectorAll("div, span");
   var target = null;
   for (var i = 0; i < elements.length; i++) {
-    if (elements[i].childElementCount === 0 && elements[i].textContent.trim() === "Prazo de entrega a confirmar") {
+    var label = elements[i].textContent.trim();
+    if (elements[i].childElementCount === 0 && (label === "Receba em 3 a 5 dias" || label === "Prazo de entrega a confirmar")) {
       target = elements[i];
       break;
     }
