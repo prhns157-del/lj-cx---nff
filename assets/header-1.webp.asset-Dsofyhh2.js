@@ -1,0 +1,1 @@
+var e={version:1,asset_id:`3a6e2019-320a-446d-9306-bb7daebf9e01`,project_id:`2a205002-bb22-466c-b9cc-3489d1f0ca4f`,url:`/assets/aiwa/t2w-02-01.jpg`,r2_key:`a/v1/2a205002-bb22-466c-b9cc-3489d1f0ca4f/3a6e2019-320a-446d-9306-bb7daebf9e01/header-1.webp`,original_filename:`header-1.webp`,size:139046,content_type:`image/webp`,created_at:`2026-08-07T04:58:08Z`};export{e as t};
